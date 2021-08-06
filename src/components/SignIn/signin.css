@@ -1,0 +1,269 @@
+.leftside,
+.rightside {
+    height: 1000px;
+    width: 100%;
+}
+
+.leftside {
+    background-color: white;
+}
+
+.rightside {
+    background-image: url("https://res.cloudinary.com/not-set/image/upload/v1624659570/futurelabs/third_background_with_wallet_1_gauydu.png");
+    background-repeat: no-repeat;
+}
+
+.fmm,
+.snn {
+    height: 720px;
+}
+
+.fmm {
+    background-color: #F4F4F4;
+    margin-right: 550px;
+    box-shadow: 10px -10px 10px #FFD600;
+}
+
+.snn {
+    background-color: #000000;
+    box-shadow: -7px 12px 39px rgba(0, 0, 0, 0.07);
+    margin-left: 235px;
+}
+
+.sn {
+    position: absolute;
+    width: 111px;
+    height: 45px;
+    left: 12em;
+    top: 6em;
+    color: #f7f2f2;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    /* identical to box height */
+    text-shadow: 0px -3px 3px #FFFFFF;
+}
+
+.element {
+    position: absolute;
+    width: 57px;
+    height: 4px;
+    top: 95px;
+    margin-left: -85px;
+    background: #FFD600;
+    border-radius: 26px;
+}
+
+#emails {
+    width: 46px;
+    height: 23px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    margin-top: 50px;
+    color: #000000;
+}
+
+.input1 {
+    width: 330px;
+    height: 47px;
+    top: 500px;
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+
+#password {
+    width: 46px;
+    height: 23px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    margin-top: 50px;
+    color: #000000;
+}
+
+.input2 {
+    width: 330px;
+    height: 47px;
+    left: 684px;
+    top: 423px;
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+
+.check {
+    width: 152px;
+    height: 15px;
+    top: 609px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#wht {
+    color: white;
+}
+
+.summit {
+    position: relative;
+    width: 161px;
+    height: 48px;
+    left: 140px;
+    top: 150px;
+    border: 5px solid black;
+    background: #3A3A3A;
+    box-shadow: -7px 20px 20px rgba(0, 0, 0, 0.07);
+}
+
+@media screen and (max-width: 768px) {
+    .fmm {
+        background-color: #F4F4F4;
+        margin-right: 0px;
+        margin-bottom: 550px;
+        width: 500px;
+        border-radius: 0px 0px 70px 70px;
+    }
+    .snn {
+        background-color: #000000;
+        margin-left: 0px;
+        margin-top: 550px;
+        width: 500px;
+        border-radius: 70px 70px 0px 0px;
+        box-shadow: -7px 12px 39px rgba(0, 0, 0, 0.07);
+    }
+    .element {
+        position: absolute;
+        width: 57px;
+        height: 4px;
+        top: 95px;
+        margin-left: -200px;
+        background: #FFD600;
+        border-radius: 26px;
+    }
+}
+
+
+/* css rules for ipad portrait */
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .fmm {
+        background-color: #F4F4F4;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: -360px;
+        width: 500px;
+        border-radius: 0px 70px 70px 0px;
+    }
+    .snn {
+        background-color: #000000;
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 600px;
+        border-radius: 70px 0px 0px 70px;
+        box-shadow: -7px 12px 39px rgba(0, 0, 0, 0.07);
+    }
+    .fmm,
+    .snn {
+        height: 720px;
+    }
+    .leftside,
+    .rightside {
+        height: 1020px;
+        width: 100%;
+    }
+    .sn {
+        position: absolute;
+        width: 111px;
+        height: 45px;
+        left: 2px;
+        top: 45px;
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 45px;
+        color: #FFFFFF;
+    }
+    .element {
+        position: absolute;
+        width: 57px;
+        height: 4px;
+        top: 95px;
+        margin-left: 30px;
+        background: #FFD600;
+        border-radius: 26px;
+    }
+}
+
+
+/* css rules for ipad pro portrait */
+
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+    .fmm {
+        background-color: #F4F4F4;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: -480px;
+        width: 500px;
+        border-radius: 0px 70px 70px 0px;
+    }
+    .snn {
+        background-color: #000000;
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 600px;
+        border-radius: 70px 0px 0px 70px;
+        box-shadow: -7px 12px 39px rgba(0, 0, 0, 0.07);
+    }
+    .fmm,
+    .snn {
+        height: 720px;
+    }
+    .leftside,
+    .rightside {
+        height: 1050px;
+        width: 100%;
+    }
+    .element {
+        position: absolute;
+        width: 57px;
+        height: 4px;
+        top: 95px;
+        margin-left: 30px;
+        background: #FFD600;
+        border-radius: 26px;
+    }
+    /* Green */
+    .success {
+        border-color: #04AA6D;
+        color: green;
+    }
+    .summit:hover {
+        background-color: #04AA6D;
+        color: white;
+    }
+    .btn:hover {
+        background-color: #FFD600;
+    }
+    .summit {
+        position: absolute;
+        width: 161px;
+        height: 48px;
+        left: 30px;
+        top: 350px;
+        border-color: #FFD600;
+        background: #3A3A3A;
+    }
+}

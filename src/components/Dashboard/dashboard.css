@@ -1,0 +1,11 @@
+#card-box {
+    background-color: white;
+}
+
+.convert {
+    color: rgb(255, 153, 0) !important;
+}
+
+.one-man {
+    border-bottom-color: rgb(255, 153, 0);
+}

@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+#hero {
+    background-color: #000;
+    height: 750px;
+}
+
+.oneclick {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 85px;
+    padding-top: 200px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.move {
+    position: relative;
+    top: 80%;
+    width: 10%;
+    height: 20%;
+}
+
+.hero {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.grey2 {
+    color: #E5E5E5;
+    background: E5E5E5;
+}
+
+.white {
+    background-color: #FFFFFF;
+    color: #000;
+    padding: 5px;
+}
+
+.orange {
+    margin-top: 20px;
+    background: #FF9900;
+    /* border-radius: 55px; */
+    color: white;
+    border: #FF9900;
+    padding: 17px 17px;
+}
+
+#why {
+    background: #E5E5E5;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    #why {
+        text-align: center;
+    }
+}
+
+#how {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    #how {
+        text-align: center;
+    }
+}
+
+.center-image {
+    text-align: center;
+}
+
+.capital {
+    padding-top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 57px;
+    /* identical to box height */
+    color: #3A3A3A;
+}
+
+.whyus {
+    margin-top: 200px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #FF6B00;
+}
+
+.whydesc {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3A3A3A;
+}
+
+.padup {
+    padding-top: 150px;
+}
+
+.one {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background: #3A3A3A;
+    margin-left: 20px;
+}
+
+.steps {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.howto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#payoneer {
+    background: url('https://res.cloudinary.com/not-set/image/upload/v1624632653/futurelabs/Group_64_tarygo.png');
+    /* height: 800px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    .card2 {
+        margin-left: 28px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card3 {
+        margin-left: 98px;
+    }
+}
+
+.card1 {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    background: white;
+}
+
+.move {
+    width: 10%;
+}
+
+.move2 {
+    position: relative;
+    top: 70px;
+    /* width: 50%; */
+    height: 10%;
+}
+
+.no-border {
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    height: 70px;
+    font-size: 40px;
+    width: 100%;
+}
+
+.news {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 104px;
+    /* identical to box height */
+    color: #3A3A3A;
+}
+
+.down {
+    border: 0;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    outline: none;
+    text-align: center;
+}
+
+
+/* .down:focus{
+    border-top: 0;
+    border-bottom: 30px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 30%;
+} */
+
+footer {
+    background: url(https://res.cloudinary.com/not-set/image/upload/v1624632768/futurelabs/Group_26_xzuxhi.png);
+    margin-top: 54px;
+    padding-top: 90px;
+}
+
+.small {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    padding-top: 110px;
+    color: #CFCFCF;
+}
+
+.line {
+    border: 2px solid #F0C911;
+    /* transform: rotate(-180deg); */
+    width: 50px;
+}
+
+.email {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    padding-top: 10px;
+    color: #CFCFCF;
+}
+
+.small2 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #CFCFCF;
+}
+
+.rose {
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+
+/* DASHBOARDONECSS */
+
+
+/* Justin's css begins below! */
+
+input:hover {
+    border-color: #F0C911;
+    border-style: 10px solid;
+}

@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.body {
+    background-color: rgb(244, 244, 244);
+    height: 100vh !important;
+}
+
+.bulk {
+    overflow-x: hidden;
+    background-color: rgb(248, 245, 248);
+    height: 100vh !important;
+}
+
+.settings {
+    color: rgb(255, 153, 0) !important;
+}
+
+.profile {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.para {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #818181;
+}
+
+.profile2 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.para2 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #818181;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up)*/
+
+@media only screen and (min-width: 600px) {
+    .manny:hover {
+        border-style: solid;
+        border-bottom-color: rgb(255, 153, 0);
+        border-left-color: rgb(255, 153, 0);
+        border-right-color: rgb(255, 153, 0);
+        border-top-color: rgb(255, 153, 0);
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+    .manny {
+        margin-top: 112px;
+    }
+    #screen-name {
+        display: none;
+    }
+    hr {
+        display: none;
+    }
+    .contain {
+        position: absolute;
+        width: 180px;
+        height: 500px;
+    }
+    .row1 {
+        display: flex;
+        margin-left: 30px;
+        height: 30px;
+        position: relative;
+        top: 15px;
+    }
+    #row2 {
+        height: 140px;
+        position: relative;
+        top: 30px;
+    }
+    .data {
+        position: relative;
+        bottom: 70px;
+        left: 90px;
+    }
+    .finish {
+        width: 100px !important;
+        margin-left: 320px;
+        margin-bottom: 32px;
+    }
+    .ex {
+        display: none;
+    }
+    .closebtn {
+        display: none;
+    }
+    .open {
+        display: none;
+    }
+    .pa {
+        position: relative;
+        top: 60px;
+        /* width: 270px; */
+        right: 50px;
+        /* font-size: 14px; */
+    }
+    #card-box {
+        margin-left: 264px;
+        width: 1000px;
+        position: relative;
+        top: 85px;
+    }
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(255, 153, 0);
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #size {
+        display: none;
+    }
+}
+
+
+/* laptop ends here */
+
+#card-box {
+    background-color: rgb(248, 249, 250);
+    border-radius: 15px !important;
+}
+
+
+/* Phone begins here */
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .number,
+    .address {
+        margin-top: 60px;
+    }
+    #card-box {
+        border-radius: 35px !important;
+    }
+    #size {
+        height: 66px;
+        position: relative;
+        bottom: 40px;
+        right: 130px;
+        background-size: 40px;
+        color: rgb(255, 153, 0);
+        margin-left: 120px;
+    }
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(255, 153, 0);
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .ex {
+        position: relative;
+        top: 120px;
+        left: 5px;
+    }
+    .contain {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    .contain a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .contain a:hover {
+        color: #f1f1f1;
+    }
+    .contain .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .main {
+        transition: margin-left .5s;
+        padding: 16px;
+    }
+    .open {
+        position: fixed;
+    }
+    .finish {
+        width: 100px !important;
+        margin-left: 55px;
+        margin-bottom: 10px;
+    }
+    .open {
+        position: absolute !important;
+    }
+    .pa {
+        padding-top: 7px;
+    }
+    .row1 {
+        position: relative;
+        top: 10px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 35px;
+    }
+    #row2 {
+        padding-top: 40px !important;
+    }
+    .bar {
+        width: auto;
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    .well {
+        padding-right: 33px;
+    }
+    .manny {
+        margin-top: 97px;
+    }
+    .manny:hover {
+        border-style: solid;
+        border-bottom-color: rgb(255, 153, 0);
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        border-style: hidden;
+    }
+    .normal {
+        position: relative;
+        bottom: 15px;
+    }
+    .normal1 {
+        position: relative;
+        bottom: 10px;
+    }
+    #screen-name {
+        margin-left: 200px;
+        color: rgb(255, 153, 0);
+    }
+    .dot2 {
+        height: 10px;
+        width: 10px;
+        background-color: rgb(119, 118, 118);
+        border-radius: 10%;
+        display: inline-block;
+    }
+    .work {
+        padding-bottom: 89px;
+        padding-right: 35px;
+    }
+}
+
+.bar-grey {
+    background-color: rgb(229, 229, 229);
+}
+
+@media screen and (max-height: 450px) {
+    .contain {
+        padding-top: 15px;
+    }
+    .contain a {
+        font-size: 18px;
+    }
+}
+
+.finish {
+    background-color: rgb(255, 153, 0) !important;
+}
+
+.finish:hover {
+    color: rgb(255, 153, 0) !important;
+    background-color: black !important;
+}
+
+.one-man {
+    height: 235px;
+    background-color: rgb(0, 0, 0);
+    border-bottom-color: grey;
+    border-left-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-bottom-right-radius: 5px;
+    /* box-shadow: 10px 0 5px -2px rgb(197, 196, 196); */
+}
+
+.same:active {
+    box-shadow: 10px 0 5px -2px rgb(49, 48, 48);
+}
+
+.one-man:hover {
+    border-style: solid;
+    /* border-color: rgb(255, 153, 0); */
+}
+
+.same:hover {
+    border-style: solid;
+    border-color: rgb(255, 153, 0);
+    color: rgb(255, 153, 0);
+}
+
+.same:active {
+    box-shadow: 10px 0 5px -2px rgb(49, 48, 48);
+}
+
+#settings {
+    border-bottom-color: rgb(255, 153, 0);
+}
+
+#convert {
+    border-bottom-color: rgb(255, 153, 0);
+}
+
+#accounts {
+    border-bottom-color: rgb(255, 153, 0);
+}
+
+#transactions {
+    border-bottom-color: rgb(255, 153, 0);
+}
+
+.same-last {
+    border-left-color: rgb(0, 0, 0);
+    border-top-right-radius: 5px
+}
+
+.same {
+    height: 85px;
+    background-color: black !important;
+    border-bottom-color: grey;
+    border-style: solid;
+    border-left-color: rgb(0, 0, 0);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.same-last {
+    height: 85px;
+    background-color: black !important;
+    border-bottom-color: grey;
+    border-style: solid;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid rgb(173, 171, 171);
+}
+
+.sidetext {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #818181;
+}
+
+.no-box {
+    text-decoration: none;
+}
+
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.button {
+    position: relative;
+    background-color: #04AA6D;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: white;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.notification {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.notification:hover {
+    background: red;
+}
+
+.notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+
+#text {
+    display: none;
+    color: red
+}
+
+
+/* Justin's css ends here! */
+
+
+/* Anamemem's begins below! */
+
+@media screen and (max-height: 450px) {
+    .yel {
+        position: relative;
+        width: 217px;
+        height: 71px;
+        left: 56px;
+        top: 12px;
+        background: linear-gradient(94.91deg, #FF9900 18.76%, rgba(255, 184, 0, 0.79) 101.16%);
+    }
+}
+
+.yel {
+    position: absolute;
+    width: 417px;
+    height: 71px;
+    left: 316px;
+    top: 82px;
+    background: linear-gradient(94.91deg, #FF9900 18.76%, rgba(255, 184, 0, 0.79) 101.16%);
+}
+
+.h5 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    margin-left: 60px;
+    margin-top: 24px;
+    color: #3B3B3B;
+}
+
+.block {
+    display: block;
+    width: 25%;
+    background: linear-gradient(94.91deg, #FF9900 18.76%, rgba(255, 184, 0, 0.79) 101.16%);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 270px;
+}
+
+.mac {
+    margin-left: -30px;
+    width: 1072px;
+    height: 52px;
+}
+
+@media only screen and (max-width: 600px) {
+    .block {
+        position: absolute;
+        right: 120px;
+        text-align: center;
+        width: 50%;
+        margin: -40px;
+    }
+}
+
+.block {
+    display: block;
+    width: 25%;
+    background: linear-gradient(94.91deg, #FF9900 18.76%, rgba(255, 184, 0, 0.79) 101.16%);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 270px;
+    margin-top: -20px;
+}
+
+.mac {
+    margin-left: -30px;
+    width: 1072px;
+    height: 52px;
+}
+
+@media only screen and (max-width: 600px) {
+    .block {
+        position: relative;
+        right: 120px;
+        text-align: center;
+        width: 50%;
+        margin-top: -20px;
+        margin-left: 200px;
+    }
+    .mac {
+        position: absolute;
+        margin-left: 2px;
+        margin-top: 10px;
+    }
+    .khd {
+        position: absolute;
+        margin-left: 30px;
+    }
+}
