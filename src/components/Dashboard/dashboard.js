@@ -64,7 +64,7 @@ export default function Dashboard(){
                             </a>
                         </div>
                         <div className="same text-center">
-                        <a href={{javascript:void(0)}} onClick={handleLogout} className="no-box" style={{textDecoration: 'none'}}>
+                        <a href="/" onClick={handleLogout} className="no-box" style={{textDecoration: 'none'}}>
                             <div className="normal3 pt-3">
                                 <img src="https://res.cloudinary.com/not-set/image/upload/v1623155406/futurelabs/Group_33_vyxf7l.png" alt="" />
                                 <h5 className="sidetext">Log out</h5>
