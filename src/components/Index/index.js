@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css';
 import { Link } from 'react-router-dom'
+import CurrencyConverter from '../Converter/currencyConverter';
 
 function NavBar(){
     return(
@@ -32,13 +33,7 @@ function Section(){
                             <p className="hero">Buy and sell local and foreign currencies at the best market rates with ZERO CHARGES.</p>
                         </div>
                     </div>
-                    <div className="row  no-gutters  align-items-center">
-                        <div className="col">
-                            <input className="no-border change" type="number" id="f" placeholder="NGN" onkeyup="convert('F')" />
-                        </div>
-                        <div className="col-sm-auto"><img src="https://res.cloudinary.com/not-set/image/upload/v1624630624/futurelabs/Group_17_1_m41y1q.png" alt=""/></div>
-                        <div className="col"><input className="no-border change" type="number" id="c" placeholder="USD" onkeyup="convert('C')" /></div>
-                    </div>
+                    <CurrencyConverter />
                 </div>
                 <button className="orange">Get Started</button>
             </section>
